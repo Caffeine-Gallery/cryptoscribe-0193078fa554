@@ -1,0 +1,26 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.post h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.post .text-muted {
+    margin-bottom: 1rem;
+}
+
+#new-post-btn {
+    width: 100%;
+}
+
+#editor {
+    height: 200px;
+}
+
+@media (min-width: 768px) {
+    #new-post-btn {
+        width: auto;
+    }
+}
